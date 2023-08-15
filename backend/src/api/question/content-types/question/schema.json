@@ -1,0 +1,126 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questions",
+  "info": {
+    "singularName": "question",
+    "pluralName": "questions",
+    "displayName": "question"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "author": {
+      "type": "string",
+      "default": "admin"
+    },
+    "email": {
+      "type": "email",
+      "default": "toofanicoder333@gmail.com"
+    },
+    "board": {
+      "type": "enumeration",
+      "enum": [
+        "CBSE",
+        "ICSE",
+        "Maharashtra State Board of Secondary and Higher Secondary Education (MSBSHSE)",
+        "Tamil Nadu State Board of Secondary Education (TNBSE)",
+        "West Bengal Board of Secondary Education (WBBSE)",
+        "Karnataka Secondary Education Examination Board (KSEEB)",
+        "Andhra Pradesh Board of Secondary Education (BSEAP)",
+        "Telangana State Board of Intermediate Education (TSBIE)",
+        "Uttar Pradesh Madhyamik Shiksha Parishad (UPMSP)",
+        "Rajasthan Board of Secondary Education (RBSE)",
+        "Gujarat Secondary and Higher Secondary Education Board (GSEB)",
+        "Bihar School Examination Board (BSEB)",
+        "Madhya Pradesh Board of Secondary Education (MPBSE)",
+        "Kerala Board of Public Examinations (KBPE)",
+        "Punjab School Education Board (PSEB)",
+        "Haryana Board of School Education (HBSE)",
+        "Jharkhand Academic Council (JAC)",
+        "Odisha Board of Secondary Education (BSE Odisha)",
+        "Chhattisgarh Board of Secondary Education (CGBSE)",
+        "Uttarakhand Board of School Education (UBSE)",
+        "Himachal Pradesh Board of School Education (HPBOSE)",
+        "Jammu and Kashmir State Board of School Education (JKBOSE)"
+      ]
+    },
+    "subject": {
+      "type": "enumeration",
+      "enum": [
+        "English",
+        "Mathematics",
+        "Hindi",
+        "EVS (Environmental Studies)",
+        "GK (General Knowledge)",
+        "Drawing",
+        "Art",
+        "Computer Science",
+        "Science",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "Social Studies",
+        "History",
+        "Geography",
+        "Civics",
+        "Economics",
+        "Physical Education",
+        "Accountancy",
+        "Business Studies",
+        "Informatics Practices",
+        "Entrepreneurship",
+        "Psychology",
+        "Sociology",
+        "Fine Arts"
+      ]
+    },
+    "year": {
+      "type": "biginteger"
+    },
+    "standard": {
+      "type": "enumeration",
+      "enum": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VI",
+        "VII",
+        "VIII",
+        "IX",
+        "X",
+        "XI",
+        "XII"
+      ]
+    },
+    "set": {
+      "type": "enumeration",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ]
+    },
+    "state": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "file": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
